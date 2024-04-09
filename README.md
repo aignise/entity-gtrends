@@ -2,6 +2,25 @@
 
 The Google Trends Bot is a Python script that interacts with the Google Trends website to fetch rising queries based on user input. It utilizes Pytrends, a Python library for accessing Google Trends data.
 
+This Python program utilizes OpenAI's GPT-4 model to create a Google Trends assistant. It fetches Google Trends data based on user input and can return more analytical table or number-based output.
+
+## Functionality
+The assistant provides the following functionality:
+- Fetch Google Trends data based on user input.
+- Return interest over time data, related topics (rising and top), and related queries (rising and top).
+
+## Arguments
+The assistant function, `fetch_google_trends`, requires the following argument:
+- `keywords`: A list of keywords to fetch Google Trends data for.
+
+## Steps to Run the Program
+1. Ensure you have Python installed on your system.
+2. Install the required dependencies by running `pip install -r requirements.txt`.
+3. Obtain an OpenAI API key and set it as an environment variable named `OPENAI_API_KEY` in a `.env` file.
+4. Run the program by executing the `main.py` file.
+5. The program will prompt you to provide keywords for fetching Google Trends data.
+6. The assistant will return the requested Google Trends data based on your input.
+7. 
 ## Installation
 
 1. Clone the repository:
