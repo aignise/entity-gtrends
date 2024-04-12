@@ -14,7 +14,7 @@ def setup():
     assistant = client.beta.assistants.create(
         name="Weather Forecast Bot",
         instructions="You are a bot to fetch weather forecasts based on user's location.",
-        model="gpt-4-turbo-preview",
+        model="gpt-3.5-turbo-0125",
         tools=[
             {
                 "type": "function",
