@@ -25,7 +25,7 @@ def setup():
     assistant = client.beta.assistants.create(
         name="Google Trends Assistant",
         instructions="You are a bot to fetch Google Trends data based on user input, return more analytical table or number based output.",
-        model="gpt-4-turbo-preview",
+        model="gpt-3.5-turbo-0125",
         tools=[
             {
                 "type": "function",
